@@ -332,7 +332,7 @@
               <MiscControls>--cpp</MiscControls>
               <Define>USE_STDPERIPH_DRIVER, USE_FULL_ASSERT</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CMSIS;.\SPL\inc;.\SPL\src;.\SPL;.\User;..\DiplomSTM</IncludePath>
+              <IncludePath>.\CMSIS;.\SPL\inc;.\SPL\src;.\SPL;.\User;..\DiplomSTM;.\MTSP;.\USART</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -608,7 +608,27 @@
             <File>
               <FileName>mtsp.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\mtsp.cpp</FilePath>
+              <FilePath>.\MTSP\mtsp.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>CRC_calc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\MTSP\CRC_calc.c</FilePath>
+            </File>
+            <File>
+              <FileName>CRC_calc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\MTSP\CRC_calc.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>USART</GroupName>
+          <Files>
+            <File>
+              <FileName>usartMTSP.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USART\usartMTSP.c</FilePath>
             </File>
           </Files>
         </Group>

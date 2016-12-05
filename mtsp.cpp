@@ -1,5 +1,0 @@
-class MTSP
-{
-	public:
-		MTSP();
-};
